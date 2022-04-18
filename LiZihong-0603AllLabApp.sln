@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LiZihong-0603AllLabApp", "LiZihong-0603AllLabApp\LiZihong-0603AllLabApp.csproj", "{149E491A-A0F2-4288-AF35-349D2B65D224}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabAss2", "LabAss2\LabAss2.csproj", "{8F9E0F15-72D4-49FA-A23D-1F98B3D1C786}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{149E491A-A0F2-4288-AF35-349D2B65D224}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{149E491A-A0F2-4288-AF35-349D2B65D224}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{149E491A-A0F2-4288-AF35-349D2B65D224}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{149E491A-A0F2-4288-AF35-349D2B65D224}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F9E0F15-72D4-49FA-A23D-1F98B3D1C786}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F9E0F15-72D4-49FA-A23D-1F98B3D1C786}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F9E0F15-72D4-49FA-A23D-1F98B3D1C786}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F9E0F15-72D4-49FA-A23D-1F98B3D1C786}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BD40548C-6C76-4422-A76F-49E74710FDA7}
+	EndGlobalSection
+EndGlobal
