@@ -46,6 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CustomerDBDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustomerDBDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerDBDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CustomerDBDataSet1.xsd</DependentUpon>
+    </Compile>
     <Compile Include="CustomerValidation.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -85,6 +95,28 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="CustomerDBDataSet.xsc">
+      <DependentUpon>CustomerDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CustomerDBDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CustomerDBDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CustomerDBDataSet.xss">
+      <DependentUpon>CustomerDBDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="CustomerDBDataSet1.xsc">
+      <DependentUpon>CustomerDBDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="CustomerDBDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>CustomerDBDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="CustomerDBDataSet1.xss">
+      <DependentUpon>CustomerDBDataSet1.xsd</DependentUpon>
+    </None>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
