@@ -36,11 +36,11 @@ namespace LabAss3
                 objVal.CheckCustomerName(txtName.Text);
 
                 frmCustomerPreview objPreview = new frmCustomerPreview();
-                objPreview.SetValues(txtName.Text, cmbCountry.Text,
-                                     Gender, Hobby, Status);
+                objPreview.SetValues(txtName.Text,cmbCountry.Text,
+                                     Gender,Hobby,Status);
                 objPreview.Show();
             }
-            catch (Exception ex)
+            catch(Exception ex)
             {
                 MessageBox.Show(ex.Message.ToString());
             }
