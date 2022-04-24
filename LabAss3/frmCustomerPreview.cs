@@ -26,5 +26,10 @@ namespace LabAss3
             lblHobby.Text = Hobby;
             lblStatus.Text = Status;
         }
+
+        private void lblName_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
