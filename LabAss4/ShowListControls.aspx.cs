@@ -29,5 +29,10 @@ namespace LabAss4
             RadioButtonList1.DataBind();
             */
         }
+
+        protected void ListBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

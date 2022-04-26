@@ -10,7 +10,7 @@
     <form id="form1" runat="server">
         <div><h1>ListBox</h1>
             <p>
-                <asp:ListBox ID="ListBox1" runat="server" DataSourceID="SqlDataSource1" DataTextField="Username" DataValueField="Username"></asp:ListBox>
+                <asp:ListBox ID="ListBox1" runat="server" DataSourceID="SqlDataSource1" DataTextField="Username" DataValueField="Username" OnSelectedIndexChanged="ListBox1_SelectedIndexChanged"></asp:ListBox>
             </p></div>
         <div><h1>DropDownList</h1>
             <p>
